@@ -12,6 +12,7 @@ $uri .= $_SERVER['HTTP_HOST'];
 header('Location: ' . $uri . '/dashboard/');
 echo 'test1' . $add . "<br>";
 $devtest = 'dev1';
+$devtest2 = 'dev2';
 
 exit;
 ?>
