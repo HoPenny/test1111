@@ -1,5 +1,6 @@
 <?php
     $add = "test";
+	$add2 = "test2"
 	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 		$uri = 'https://';
 	} else {
