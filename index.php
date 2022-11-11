@@ -10,6 +10,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 }
 $uri .= $_SERVER['HTTP_HOST'];
 header('Location: ' . $uri . '/dashboard/');
+echo 'test1' . $add . "<br>";
 exit;
 ?>
 Something is wrong with the XAMPP installation :-(
