@@ -12,6 +12,8 @@ $uri .= $_SERVER['HTTP_HOST'];
 header('Location: ' . $uri . '/dashboard/');
 echo 'test1' . $add . "<br>";
 $bugfix = 'bug1';
+$bugfix2 = 'bug2';
+
 exit;
 ?>
 Something is wrong with the XAMPP installation :-(
